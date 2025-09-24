@@ -1,0 +1,43 @@
+ Problem Statement
+
+At SvaraAI, we build ML-powered features for outbound sales. One core task is to classify replies from prospects into categories (e.g., interested, not interested, neutral) so that sales reps know where to focus their efforts.
+
+Your assignment is to design, implement, and deploy a simple reply classification pipeline.
+
+🧩 Part A – ML/NLP Pipeline (Core Task)
+
+We provide you with a small dataset of email replies in csv. Each reply is labeled as one of :
+positive (interested in meeting/demo)
+negative (not interested / rejection)
+neutral (non-committal or irrelevant)
+
+Tasks :
+Load and preprocess the dataset (clean text, handle missing values).
+Train a baseline model (e.g., Logistic Regression or LightGBM).
+Fine-tune a small transformer model (e.g., distilbert-base-uncased) using Hugging Face.
+Evaluate models using accuracy + F1 score.
+Compare results and explain which model you’d use in production and why.
+
+🧩 Part B – Deployment Task (API)
+
+Wrap your best model in a FastAPI (or Flask) service with a /predict endpoint.
+Input: JSON with a text string, e.g. { "text": "Looking forward to the demo!" }
+Output: JSON with prediction and probability, e.g. { "label": "positive", "confidence": 0.87 }
+
+Add a small README with instructions to run your API locally.
+Bonus: Add a Dockerfile or requirements.txt.
+
+🧩 Part C – Short Answer (Reasoning)
+
+Answer briefly (2–3 sentences each) in a separate markdown file (answers.md):
+
+If you only had 200 labeled replies, how would you improve the model without collecting thousands more?
+How would you ensure your reply classifier doesn’t produce biased or unsafe outputs in production?
+Suppose you want to generate personalized cold email openers using an LLM. What prompt design strategies would you use to keep outputs relevant and non-generic?
+
+📦 Deliverables
+
+notebook.ipynb (or Python scripts) with code for Part A.
+app.py (FastAPI/Flask code) for Part B.
+answers.md with reasoning answers.
+README.md with setup instructions.
