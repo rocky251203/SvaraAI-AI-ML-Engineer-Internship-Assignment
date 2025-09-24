@@ -1,0 +1,21 @@
+ Part C – Short Answer (Reasoning)
+
+1.If you only had 200 labeled replies, how would you improve the model without collecting thousands more?
+
+With such a small dataset, I'd use transfer learning by fine-tuning a pre-trained language model like BERT or DistilBERT, 
+which brings in general language knowledge from huge corpora. I’d also try techniques like data augmentation (paraphrasing, 
+back-translation) and semi-supervised or active learning, so the model learns more from the data I do have without manual labeling overload.
+
+
+2.How would you ensure your reply classifier doesn’t produce biased or unsafe outputs in production?
+
+I would regularly audit the model using diverse sample data to check for bias and edge cases,
+and monitor its predictions in real scenarios. In addition, keeping the training data representative
+of real user replies and occasionally involving human review for sensitive cases helps maintain safe, fair outputs.
+
+
+3.Suppose you want to generate personalized cold email openers using an LLM. What prompt design strategies would you use to keep outputs relevant and non-generic?
+
+To keep openers fresh and relevant, I'd include clear context in the prompt, like the prospect’s name, industry, 
+and specific pain points or interests. Providing a couple of good example outputs or using instruction-based prompts 
+also helps steer the model towards creative, non-generic results.
