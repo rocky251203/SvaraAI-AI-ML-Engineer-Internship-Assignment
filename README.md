@@ -10,3 +10,15 @@ Problem Statement  At SvaraAI, we build ML-powered features for outbound sales. 
 
 
 
+<img width="606" height="438" alt="image" src="https://github.com/user-attachments/assets/afa85c4d-d9d7-4f86-82f4-2b88e5a11e44" />
+
+<img width="564" height="184" alt="image" src="https://github.com/user-attachments/assets/fa44ac7d-bec0-4412-9ef9-e763c50b02fd" />
+
+<img width="1543" height="430" alt="image" src="https://github.com/user-attachments/assets/63db721a-9d89-48cc-b288-dc5ec6ddb3e6" />
+
+<img width="1464" height="402" alt="image" src="https://github.com/user-attachments/assets/5ce7b5c3-9510-4854-800f-d084f6ae1320" />
+
+<img width="865" height="359" alt="image" src="https://github.com/user-attachments/assets/2b3c7860-d6a0-4aa8-98f3-d319b5809f5b" />
+
+
+
